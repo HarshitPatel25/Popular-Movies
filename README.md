@@ -6,7 +6,9 @@ Note: In order to build your own app, add your own API key obtained from http://
 
 
 buildTypes.each{
+
         it.buildConfigField 'String', 'MOBDB_API_KEY',"\"api_key\""
+	
     }
     
     
@@ -17,3 +19,6 @@ Butterknife
 Retrofit
 Glide
 Simple Sql Provider
+
+
+#Screenshots Full res screenshot http://imgur.com/a/Ijzy2
